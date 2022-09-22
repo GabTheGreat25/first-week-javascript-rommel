@@ -50,7 +50,7 @@ var parseRequest = (data, validateData, errorHandler) => {
     console.log("no errors");
   } else {
     var message = "error age";
-    // errorHandler(message);
+    errorHandler(message);
     errorHandler();
   }
 };
